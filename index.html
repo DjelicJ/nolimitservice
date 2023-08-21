@@ -1,0 +1,647 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./aos.css">
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <title>NoLimit Service</title>
+
+  <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=j9q2Ye3k8qMckSPRI0Y9I6janUV5nOvSqkddP6rljwli2aXlqP43Mf7Z_HR_s_Uf4j2Vf4DRr9mddJ4Duj0Gf72e-1sxfz7GXWQ9huezADuUcq5Iw52n4VxcM6JyDZYt1IJwtaw0QIlcCkGoG3JUoAaltS5HBWcZCmelXbPaSZrqAbfSNeQ6iI8M5Kbt2HmZ3yaXOO4IrEY9uhXhCk0ykGjeQmOwz3NOTL1eoGfC55_8Hdir3weaoZHLxI1WOsur-Mw72JI9_41gSoYoX54uHJqVavn4ilGlRpw7AjgR-OwDJJ7_FfLONeXJC7STZS0apT5XKgfYjqSqzGDBzBLKExFRz8jz-vegRtcyKSDgBnbCDgqmjelGP7rnOFhHVpyOaubKlCC6HxPIpHKqeKJ-6zTXS8k2jumxgPYBnYtWpHnGM3tep56CH2Ls3_qAIHLx-Cmb0lb7K6uPvzRlVvmlS3aV--2Qdwf96XYQ5q15X3YRqZZt72bt_Bn4rJDDzNqF3n0JLOcFwTb7JZoxE4PUWaUI72LVuvO2h0JzfbUjC6wG_qoQ5amKevE3RAL1LZ8NFJl64UDiqH1V9Tks4WwEuwr-F4jd4PfiwiDax5tg6yfOUvS381Ph0QsOTMv2K2vbv7mQX-bE3L2T0-JpxpOkoKtF0OH3taKa9UGQsKAnRmi-xhreaSg1FGsTO5V-WOdOkUAbCfs4YPj3XN7CesCtQcS5f9p0CDisVjkLiZjcPFQsG_q4JGpHPbcS3l6ikCwgO0-l7_XdokFi-6b8kDBDBrIsmwIY91trbpSwGxa6W48K2F4FHnyMup6ondQXVNdG3eco-M6W8vAkPplst7em2VVVzJzxU1uiXh4Ea74KTV-r_ZcwDyxDBhzYmYg-zjYs3EAzXpbfSRj9vSbZRC8oDcmdwMggyDYzo6FT6XodoeYuzU-QqROx7qDl42Zq8ecK0Jz88KS_UucG41F8jfcqkPtPdYnht15I1M97IPVInZ5W9iMsPrKzAA-MFLlhTi7vrIlXFhDgrnJLOjnbOUjg7xTbbt6-GFAmUJooAGX4cr2jwlLVnzm1J4R6DB6E-9wNUMNTT4S-BtDwcwKT6trHt6sJXEppvSnsmg14pjwpGbEJhNMiLYvxaJoWWBnUFY-dKFP6qGEC9TjytFYyTAlr01spPdXjhX-VYxLY6pXhNn9TB1q4WO85XR5N-XtAnnwBKHznhYLRo9YQ5U6ELVAbGnFPv2INWMxin09Am3DogoK92qbtwL5KbZXwfGdAWVxQLVXtADkhQAWQXR4XWEyNXKXNLVfdTUB_pxTrY2nYhdLf-h7EgvpVx74QDcKlnwNbVkCY_lz3ZXjKyE4q44A3Zs4k3WOZJcmsM8Ek6Qw50H28Q80kMLFR4emkCzgSDcLZIkLe1Ku7Jg3itx1w5NKfvNUU1O3HkkDWQrGHNz7eDgAVcjvKawU3M1VuCwvWjcOJ-a-uDKu-OPpgZTQMqs70yhlFzcNzE8F_399zmqLTU23ekFWYWeLgMNLZx7CGRtOWddpEmCVRviTgRis7XSrqbeXI6O7KS6yg1jhsvFbX93FJ76gVmqDYH3S6wPUbS13Uuw1OvV-A4VvEdhBl4KVPdGwKhO_3KrGeakRBkypG9lbgBXDgcYi4F56zoJLh4hKz1EkEGpTxxbVUghgo2xTLCPqrTeeddHDyAGpLARUb5c0GfoUPb_6_o10e70HK8BhrWOmNuFr6ipD-agnXZOP5SChtoDl0Vc-DH0C3mppgVFQ" nonce="cad3fc6856c0446489a16ae6948c4e00" charset="UTF-8"></script></head>
+  <body data-bs-spy="scroll" data-bs-target="#navbarNav">
+    <br>
+    <div class="container mb-5">
+          <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./image/logo.png" alt="logo" class="img-fluid widthSM" width="250px"></a> <!-- LOGO -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home"><b>Start</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutus"><b>Über uns</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services"><b>Leistungen</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing"><b>Preise</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactus"><b>Kontakt</b></a>
+                    </li>
+                  </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <div class="container mt-5 mb-5" id="home">
+        <div class="row justify-content-center">
+            <div class="col-md-5 col-sm-12 d-flex flex-column justify-content-center" >
+                <h6 data-aos="fade-up" data-aos-duration="1000"><b style="color: #FDC82F;">Herzlich willkommen bei NoLimit Service</b></h6>
+                <h1 class="display-4" data-aos="fade-up" data-aos-duration="1000"><b>Top</b> <br> <b style="color: #80CC28;">Reinigungsservice</b></h1>
+                <br>
+                <p data-aos="fade-up" data-aos-duration="1000">Wir bieten eine breite Palette von Reinigungsdienstleistungen an, die Ihren Bedürfnissen entsprechen,
+                  für Fragen und weitere Informationen stehen wir Ihnen gerne zur Verfügung.
+                  Wir freuen uns darauf, bald von Ihnen zu hören!</p>
+                <br>
+                <button class="btn btn-secondary align-self-start border-light" style="background-color: #80CC28;" id="btn-read-more" data-aos="fade-up-right" data-aos-duration="1000">Weiterlesen</button>
+            </div>
+            <div class="col-md-6 col-sm-12 d-flex justify-content-center align-items-center mt-5 mt-md-0" data-aos="fade-left" data-aos-duration="1000">
+                <img src="./image/1.png" class="img-fluid" alt="home image">
+            </div>
+
+        </div>
+    </div>
+    
+    <br class="mt-5 mb-5 mozFix">
+    <br class="mt-5 mb-5 mozFix">
+    <br class="mt-5 mb-5 mozFix">
+    
+    <div class="container mt-5 mb-5" id="how-we-work" >
+        <div class="row justify-content-center">
+            <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+                <img src="./image/break.png" class="img-fluid mb-2" width="150px" alt="Mop logo" >
+                <h1><b>Wie gehen wir vor</b></h1>
+                <p class="text-center">Wir sichern Ihnen zu, uns schnell und gründlich um Ihr Anliegen zu kümmern.</p>
+            </div>
+        </div>
+        <br class="mt-5 mb-5 mozFix">
+        <br class="mt-5 mb-5 mozFix">
+
+        <div class="row justify-content-center gap-5" data-aos="fade-up" data-aos-duration="1000">
+            <div class="col-md-3 col-sm-10 d-flex flex-column  align-items-center cardG">
+                <div class="cardG imageContainer" >
+                    <img src="./image/book.png" alt="" width="100px">
+                </div>
+                <h2><b>Buchen</b></h2>
+                <p class="text-center">Buchen Sie unkompliziert unsere kostengünstigen Serviceangebote.
+                  Wir bieten Ihnen flexible und kurzfristige Termine.</p>
+            </div>
+            <div class="col-md-3 col-sm-10 d-flex flex-column  align-items-center cardB">
+                <div class="cardB imageContainer">
+                    <img src="./image/clean.png" alt="" width="100px">
+                </div>
+                <h2><b>Reinigen</b></h2>
+                <p class="text-center">Wir erledigen alle Arbeiten professionell und zuverlässig.</p>
+            </div>
+            <div class="col-md-3 col-sm-10 d-flex flex-column  align-items-center cardR">
+                <div class="cardR imageContainer">
+                    <img src="./image/relax.png" alt="" width="100px">
+                </div>
+                <h2><b>Entspannen</b></h2>
+                <p class="text-center">Lehnen Sie sich vollkommen entspannt und ohne Sorgen zurück.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <br class="mt-5 mb-5 mozFix">
+    <br class="mt-5 mb-5 mozFix">
+    <br class="mt-5 mb-5 mozFix">
+
+    <div class="container" id="aboutus">
+        
+        <div class="row justify-content-around overflow-hidden" >
+            <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center ">
+                <img src="./image/break.png" class="img-fluid mb-2" width="150px" alt="Mop logo" >
+                <br class="mt-5 mb-5 mozFix">
+                <br class="mt-5 mb-5 mozFix">
+            </div>
+            <div class="col-xl-5 col-lg-12 d-flex flex-column justify-content-center align-items-center order-first order-xl-0 mb-lg-5 mb-0" data-aos="fade-right" data-aos-duration="1000">
+                <img src="./image/6.png" class="img-fluid mb-2" alt="Cleaners" >
+            </div>
+            <div class="col-xl-7 col-lg-12 d-flex flex-column justify-content-center align-items-center" data-aos="fade-left" data-aos-duration="1000">
+                <h1 class="display-4"><b>Über 20 Jahren </b><b>Berufserfahrung</b></h1>
+                <p>Bevor ich im Jahr 2023 mein Reinigungsunternehmen gründete, hatte ich viele Jahre lang für verschiedene Reinigungsfirmen gearbeitet. Daher repräsentiert NoLimit Service eine Erfahrung von über zwei Jahrzehnten. Diese umfangreiche Expertise sowie ein geschultes Auge werden von uns eingebracht.</p>
+                <div class="row justify-content-around">
+                    <div class="col-md-3 d-flex flex-column justify-content-center align-items-center award pt-md-0 pt-3 mb-md-0 mb-3" data-aos="fade-up" data-aos-duration="1000" >
+                        <img src="./image/award.png" class="img-fluid mb-2" alt="Award motive" width="120px">
+                        <h3>22 Jahre</h3>
+                        <p>Erfahrung</p>
+                    </div>
+                    <br class="mt-5 mb-5 mozFix">
+                    <div class="col-md-8 d-flex flex-column justify-content-center ">
+                        <ul class="checkList ">
+                            <li>Zuverlässig</li>
+                            <li>Gründlich</li>
+                            <li>Kostengünstig</li>
+                        </ul>
+                        <p>Ganz gleich, welche Herausforderungen Sie haben, Sie können sich darauf verlassen, dass Ihr Anliegen bei uns in guten Händen ist.</p>
+                    </div>
+        
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <br class="mt-5 mb-5 mozFix">
+    <br class="mt-5 mb-5 mozFix">
+    <br class="mt-5 mb-5 mozFix">
+
+    <div class="container p-5" style="background-color: #F4FBFB;" id="services">
+        <br class="mt-5 mb-5 mozFix">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-6 d-flex flex-column justify-content-center align-items-center">
+                <img src="./image/break.png" class="img-fluid mb-2" width="150px" alt="Mop logo">
+                <h1 class="text-center"><b>Unsere umfassenden Dienstleistungen, die wir speziell für Sie erbringen</b></h1>
+                <p class="text-center d-none">Vestibulum sed eros vitae libero faucibus fermentum a efficitur velit. Etiam quis ligula luctus, venenatis justo quis, laoreet nisl.</p>
+            </div>
+        </div>
+        <br class="mt-5 mb-5 mozFix">
+        <div class="row justify-content-center gap-5" >
+            <button class="col-lg-2 col-md-4 d-flex flex-column  align-items-center customCard gap-2 border-0"
+            type="button" data-bs-toggle="modal" data-bs-target="#services1" data-aos="fade-up" data-aos-duration="1000"
+            >
+                <svg xmlns="http://www.w3.org/2000/svg" height="3em" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill="#46C0C0" d="M48 0C21.5 0 0 21.5 0 48V464c0 26.5 21.5 48 48 48h96V432c0-26.5 21.5-48 48-48s48 21.5 48 48v80h96c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48H48zM64 240c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V240zm112-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V240c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V240zM80 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V112zM272 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16z"/></svg>
+                <h6><b>Unterhaltsreinigung</b></h6>
+                <p class="text-center">Wiederholende Reinigungsarbeiten nach festgelegten Zeitabständen.</p>
+            </button>
+            <button class="col-lg-2 col-md-4 d-flex flex-column  align-items-center customCard gap-2 border-0 "
+            type="button" data-bs-toggle="modal" data-bs-target="#services2" data-aos="fade-up" data-aos-duration="1000"
+            >
+                <svg xmlns="http://www.w3.org/2000/svg" height="3em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill="#46C0C0" d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
+                <h6><b>Private Haushalte</b></h6>
+                <p class="text-center">Die Pflege eines Hauses ist von großer Bedeutung, und wir übernehmen gerne die Verantwortung für verschiedene Reinigungsaufgaben.</p>
+            </button>
+            <button class="col-lg-2 col-md-4 d-flex flex-column  align-items-center customCard gap-2 border-0"
+            type="button" data-bs-toggle="modal" data-bs-target="#services3" data-aos="fade-up" data-aos-duration="1000"
+            >
+                <svg xmlns="http://www.w3.org/2000/svg" height="3em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill="#46C0C0" d="M566.6 54.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192-34.7-34.7c-4.2-4.2-10-6.6-16-6.6c-12.5 0-22.6 10.1-22.6 22.6v29.1L364.3 320h29.1c12.5 0 22.6-10.1 22.6-22.6c0-6-2.4-11.8-6.6-16l-34.7-34.7 192-192zM341.1 353.4L222.6 234.9c-42.7-3.7-85.2 11.7-115.8 42.3l-8 8C76.5 307.5 64 337.7 64 369.2c0 6.8 7.1 11.2 13.2 8.2l51.1-25.5c5-2.5 9.5 4.1 5.4 7.9L7.3 473.4C2.7 477.6 0 483.6 0 489.9C0 502.1 9.9 512 22.1 512l173.3 0c38.8 0 75.9-15.4 103.4-42.8c30.6-30.6 45.9-73.1 42.3-115.8z"/></svg>
+                <h6><b>Grundreinigung</b></h6>
+                <p class="text-center">Im Rahmen unserer professionellen Grundreinigung entfernen wir gründlich hartnäckige Verschmutzungen von Böden und Oberflächen</p>
+            </button>
+            <button class="col-lg-2 col-md-4 d-flex flex-column  align-items-center customCard gap-2 border-0"
+            type="button" data-bs-toggle="modal" data-bs-target="#services4" data-aos="fade-up" data-aos-duration="1000"
+            >
+                <svg xmlns="http://www.w3.org/2000/svg" height="3em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill="#46C0C0" d="M243.4 2.6l-224 96c-14 6-21.8 21-18.7 35.8S16.8 160 32 160v8c0 13.3 10.7 24 24 24H456c13.3 0 24-10.7 24-24v-8c15.2 0 28.3-10.7 31.3-25.6s-4.8-29.9-18.7-35.8l-224-96c-8-3.4-17.2-3.4-25.2 0zM128 224H64V420.3c-.6 .3-1.2 .7-1.8 1.1l-48 32c-11.7 7.8-17 22.4-12.9 35.9S17.9 512 32 512H480c14.1 0 26.5-9.2 30.6-22.7s-1.1-28.1-12.9-35.9l-48-32c-.6-.4-1.2-.7-1.8-1.1V224H384V416H344V224H280V416H232V224H168V416H128V224zM256 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg>
+                <h6><b>Bauendreinigung</b></h6>
+                <p class="text-center">Die Bauendreinigung erfolgt nach Fertigstellung eines Bauwerks oder nach Abschluss von Sanierungs- oder Renovierungsarbeiten.</p>
+            </button>
+        </div>
+        <br class="mt-5 mb-5">
+        <div class="row justify-content-center gap-5">
+            <button class="col-lg-2 col-md-4 d-flex flex-column  align-items-center customCard gap-2 border-0"
+            type="button" data-bs-toggle="modal" data-bs-target="#services5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"
+            >
+                <svg xmlns="http://www.w3.org/2000/svg" height="3em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill="#46C0C0" d="M416 64a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm96 128a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM160 464a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM32 160l.1 72.6c.1 52.2 24 101 64 133.1c-.1-1.9-.1-3.8-.1-5.7v-8c0-71.8 37-138.6 97.9-176.7l60.2-37.6c8.6-5.4 17.9-8.4 27.3-9.4l45.9-79.5c6.6-11.5 2.7-26.2-8.8-32.8s-26.2-2.7-32.8 8.8l-78 135.1c-3.3 5.7-10.7 7.7-16.4 4.4s-7.7-10.7-4.4-16.4l62-107.4c6.6-11.5 2.7-26.2-8.8-32.8S214 5 207.4 16.5l-68 117.8 0 0 0 0-43.3 75L96 160c0-17.7-14.4-32-32-32s-32 14.4-32 32zM332.1 88.5L307.5 131c13.9 4.5 26.4 13.7 34.7 27c.9 1.5 1.7 2.9 2.5 4.4l28.9-50c6.6-11.5 2.7-26.2-8.8-32.8s-26.2-2.7-32.8 8.8zm46.4 63.7l-26.8 46.4c-.6 6-2.1 11.8-4.3 17.4H352h13.3l0 0H397l23-39.8c6.6-11.5 2.7-26.2-8.8-32.8s-26.2-2.7-32.8 8.8zM315.1 175c-9.4-15-29.1-19.5-44.1-10.2l-60.2 37.6C159.3 234.7 128 291.2 128 352v8c0 8.9 .8 17.6 2.2 26.1c35.4 8.2 61.8 40 61.8 77.9c0 6.3-.7 12.5-2.1 18.4C215.1 501 246.3 512 280 512H456c13.3 0 24-10.7 24-24s-10.7-24-24-24H364c-6.6 0-12-5.4-12-12s5.4-12 12-12H488c13.3 0 24-10.7 24-24s-10.7-24-24-24H364c-6.6 0-12-5.4-12-12s5.4-12 12-12H520c13.3 0 24-10.7 24-24s-10.7-24-24-24H364c-6.6 0-12-5.4-12-12s5.4-12 12-12H488c13.3 0 24-10.7 24-24s-10.7-24-24-24H352l0 0 0 0H258.8L305 219.1c15-9.4 19.5-29.1 10.2-44.1z"/></svg>
+                <h6><b>Handwerkservice</b></h6>
+                <p class="text-center">Unser Handwerksservice kümmert sich um sämtliche handwerkliche Aufgaben.</p>
+            </button>
+            <div class="col-lg-2 col-md-4 d-flex flex-column  align-items-center customCard gap-2 border-0"
+             data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"
+            >
+                <svg xmlns="http://www.w3.org/2000/svg" height="3em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill="#46C0C0" d="M8 256a56 56 0 1 1 112 0A56 56 0 1 1 8 256zm160 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm216-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"/></svg>
+                <h6><b>Weitere Services</b></h6>
+                <p class="text-center">Haben Sie weitere Anliegen oder Fragen? Keine Sorge, wir sind flexibel. Zögern Sie nicht, uns anzusprechen. Wir sind hier, um Ihnen zu helfen.</p>
+            </div>
+            <button class="col-lg-2 col-md-4 d-flex flex-column  align-items-center customCard gap-2 border-0 d-none"
+            type="button" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"
+            >
+                <img src="./image/se-icon7.png" alt=""class="img-fluid">
+                <h6><b>Car Wash</b></h6>
+                <p class="text-center">Aliquam diam ante, viverra quis aam nec sceler isque Nunc volutpat sem.</p>
+            </button>
+            <button class="col-lg-2 col-md-4 d-flex flex-column  align-items-center customCard gap-2 border-0 d-none"
+            type="button" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"
+            >
+                <img src="./image/se-icon9.png" alt=""class="img-fluid">
+                <h6><b>Sofa Cleaning</b></h6>
+                <p class="text-center">Aliquam diam ante, viverra quis aam nec sceler isque Nunc volutpat sem.</p>
+            </button>
+        </div>
+
+        <br class="mt-5 mb-5 mozFix">
+    </div>
+
+    <!-- Modals -->
+    <div class="modal fade" id="services1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
+          <div class="modal-content">
+            <div class="modal-header gap-3">
+              <svg xmlns="http://www.w3.org/2000/svg" height="3em" viewBox="0 0 384 512" class="ms-auto"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill="#46C0C0" d="M48 0C21.5 0 0 21.5 0 48V464c0 26.5 21.5 48 48 48h96V432c0-26.5 21.5-48 48-48s48 21.5 48 48v80h96c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48H48zM64 240c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V240zm112-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V240c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V240zM80 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V112zM272 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16z"/></svg>
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">Unterhaltsreinigung</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>
+                Unsere kontinuierliche Reinigungslösung stellt sicher, dass Ihr Umfeld durch regelmäßige, professionelle Pflege in
+optimalen Abständen erhalten bleibt. Wir passen uns dabei vollständig Ihren individuellen Bedürfnissen an. Dies
+gewährleistet, dass beispielsweise Ihr Büro immer verlässlich sauber ist und stets einen positiven Eindruck
+hinterlässt.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary " data-bs-dismiss="modal">OK</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="modal fade" id="services2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
+          <div class="modal-content">
+            <div class="modal-header gap-3">
+              <svg xmlns="http://www.w3.org/2000/svg" height="3em" viewBox="0 0 576 512" class="ms-auto"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill="#46C0C0" d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">Private Haushalte</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>
+                Sie befinden sich in einer Situation, in der Sie entweder zeitlich eingeschränkt sind oder physisch nicht mehr in der
+Lage sind, die Reinigung Ihrer Wohnung oder Ihres Hauses durchzuführen? <br><br>Keine Sorge, wir stehen Ihnen zur
+Seite!<br> Egal, ob es sich um einen einmaligen gründlichen Frühjahrsputz oder regelmäßige Reinigungsarbeiten
+handelt, wir sind für Sie da.</p>
+              <p>
+                Die Pflege eines Hauses ist von großer Bedeutung, und wir übernehmen gerne die Verantwortung für verschiedene
+Reinigungsaufgaben. Dazu gehören die Säuberung von Treppenhäusern, Kellern, Gehwegen, Garageneinfahrten,
+Hauseingängen sowie Fenstern, Türen und Briefkästen. Unser Ziel ist es, sicherzustellen, dass Ihr Zuhause immer
+in bestem Zustand ist und Sie sich in einer sauberen und angenehmen Umgebung wohlfühlen können.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary " data-bs-dismiss="modal">OK</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="modal fade" id="services3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
+          <div class="modal-content">
+            <div class="modal-header gap-3">
+              <svg xmlns="http://www.w3.org/2000/svg" height="3em" viewBox="0 0 576 512" class="ms-auto"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill="#46C0C0" d="M566.6 54.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192-34.7-34.7c-4.2-4.2-10-6.6-16-6.6c-12.5 0-22.6 10.1-22.6 22.6v29.1L364.3 320h29.1c12.5 0 22.6-10.1 22.6-22.6c0-6-2.4-11.8-6.6-16l-34.7-34.7 192-192zM341.1 353.4L222.6 234.9c-42.7-3.7-85.2 11.7-115.8 42.3l-8 8C76.5 307.5 64 337.7 64 369.2c0 6.8 7.1 11.2 13.2 8.2l51.1-25.5c5-2.5 9.5 4.1 5.4 7.9L7.3 473.4C2.7 477.6 0 483.6 0 489.9C0 502.1 9.9 512 22.1 512l173.3 0c38.8 0 75.9-15.4 103.4-42.8c30.6-30.6 45.9-73.1 42.3-115.8z"/></svg>
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">Grundreinigung</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>
+                Eine Grundreinigung wird in der Regel nur in größeren Zeitabständen durchgeführt. Sie gleicht weitgehend der Unterhaltsreinigung, geht jedoch über diese hinaus, indem sie eine gründliche Pflege der Räumlichkeiten und der Einrichtung einschließt. Selbst bei gewissenhafter und regelmäßiger Reinigung wird gelegentlich eine Grundreinigung erforderlich. Eine solche Reinigung geht über herkömmliches Saubermachen hinaus. Unser fachkundiges und geschultes Team gewährleistet daher die Reinigung von Böden, Kunststoffoberflächen und Fensterrahmen auf höchstem Niveau.
+              </p>
+              <p>
+                Die gründliche Reinigung einer Fläche erfordert oft mehrere sorgfältig geplante Schritte, die anschließend professionell umgesetzt werden.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary " data-bs-dismiss="modal">OK</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="modal fade" id="services4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
+          <div class="modal-content">
+            <div class="modal-header gap-3">
+              <svg xmlns="http://www.w3.org/2000/svg" height="3em" viewBox="0 0 512 512" class="ms-auto"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill="#46C0C0" d="M243.4 2.6l-224 96c-14 6-21.8 21-18.7 35.8S16.8 160 32 160v8c0 13.3 10.7 24 24 24H456c13.3 0 24-10.7 24-24v-8c15.2 0 28.3-10.7 31.3-25.6s-4.8-29.9-18.7-35.8l-224-96c-8-3.4-17.2-3.4-25.2 0zM128 224H64V420.3c-.6 .3-1.2 .7-1.8 1.1l-48 32c-11.7 7.8-17 22.4-12.9 35.9S17.9 512 32 512H480c14.1 0 26.5-9.2 30.6-22.7s-1.1-28.1-12.9-35.9l-48-32c-.6-.4-1.2-.7-1.8-1.1V224H384V416H344V224H280V416H232V224H168V416H128V224zM256 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg>
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">Bauendreinigung</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>
+                Im Bereich der Baureinigung bieten wir ein umfangreiches Spektrum an Reinigungsdienstleistungen. Egal ob es sich um Baugrobreinigung, Bauzwischenreinigung oder Baufeinreinigung handelt, wir kümmern uns darum, dass auf Ihrer Baustelle die notwendige Ordnung herrscht.
+              </p>
+              <p>
+                Die Bauendreinigung erfolgt nach Fertigstellung eines Bauwerks oder nach Abschluss von Sanierungs- oder Renovierungsarbeiten. Diese Phase wird auch als Baufeinreinigung oder Bauabschlussreinigung bezeichnet, abhängig von den jeweiligen Anbietern. In diesem Stadium sorgen wir dafür, dass das Objekt in einem sauberen und präsentablen Zustand übergeben wird.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary " data-bs-dismiss="modal">OK</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="modal fade" id="services5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
+          <div class="modal-content">
+            <div class="modal-header gap-3">
+              <svg xmlns="http://www.w3.org/2000/svg" height="3em" viewBox="0 0 576 512" class="ms-auto"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill="#46C0C0" d="M416 64a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm96 128a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM160 464a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM32 160l.1 72.6c.1 52.2 24 101 64 133.1c-.1-1.9-.1-3.8-.1-5.7v-8c0-71.8 37-138.6 97.9-176.7l60.2-37.6c8.6-5.4 17.9-8.4 27.3-9.4l45.9-79.5c6.6-11.5 2.7-26.2-8.8-32.8s-26.2-2.7-32.8 8.8l-78 135.1c-3.3 5.7-10.7 7.7-16.4 4.4s-7.7-10.7-4.4-16.4l62-107.4c6.6-11.5 2.7-26.2-8.8-32.8S214 5 207.4 16.5l-68 117.8 0 0 0 0-43.3 75L96 160c0-17.7-14.4-32-32-32s-32 14.4-32 32zM332.1 88.5L307.5 131c13.9 4.5 26.4 13.7 34.7 27c.9 1.5 1.7 2.9 2.5 4.4l28.9-50c6.6-11.5 2.7-26.2-8.8-32.8s-26.2-2.7-32.8 8.8zm46.4 63.7l-26.8 46.4c-.6 6-2.1 11.8-4.3 17.4H352h13.3l0 0H397l23-39.8c6.6-11.5 2.7-26.2-8.8-32.8s-26.2-2.7-32.8 8.8zM315.1 175c-9.4-15-29.1-19.5-44.1-10.2l-60.2 37.6C159.3 234.7 128 291.2 128 352v8c0 8.9 .8 17.6 2.2 26.1c35.4 8.2 61.8 40 61.8 77.9c0 6.3-.7 12.5-2.1 18.4C215.1 501 246.3 512 280 512H456c13.3 0 24-10.7 24-24s-10.7-24-24-24H364c-6.6 0-12-5.4-12-12s5.4-12 12-12H488c13.3 0 24-10.7 24-24s-10.7-24-24-24H364c-6.6 0-12-5.4-12-12s5.4-12 12-12H520c13.3 0 24-10.7 24-24s-10.7-24-24-24H364c-6.6 0-12-5.4-12-12s5.4-12 12-12H488c13.3 0 24-10.7 24-24s-10.7-24-24-24H352l0 0 0 0H258.8L305 219.1c15-9.4 19.5-29.1 10.2-44.1z"/></svg>
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">Handwerkservice</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>
+                Während eines Umzugs oder einer Renovierung im eigenen Zuhause fallen oft zahlreiche Aufgaben an. Wenn Sie diese Arbeiten nicht selbst übernehmen möchten, bietet NoLimit Service eine Vielzahl von handwerklichen Dienstleistungen an. Unser Handwerksservice kümmert sich um sämtliche kleine handwerkliche Aufgaben, darunter Renovierungs- oder Montagearbeiten. So haben Sie mehr Zeit und Ruhe, während wir die Arbeit für Sie erledigen.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary " data-bs-dismiss="modal">OK</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+
+    <div class="container-fluid" style="background-color: #46C0C0;">
+        <div class="container">
+            <br class="mt-5 mb-5 ">
+            <br class="mt-5 mb-5 mozFix">
+            <div class="row justify-content-center">
+                <div class="col-md-8 d-flex flex-column">
+                    <img src="./image/break_white.png" class="img-fluid mb-2 align-self-center align-self-md-start" width="150px" alt="Mop logo in white" >
+                    <h1 class="text-white"><b>Ihr NoLimit Service, <br>der Ihnen Glücksgarantie bietet</b></h1>
+                    <p class="text-white">Unser oberstes Ziel ist Ihre Zufriedenheit! Bei uns stehen Sie im Mittelpunkt, und gemeinsam arbeiten wir daran, eine passgenaue Lösung für Ihr Anliegen zu finden.</p>
+                </div>
+                <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
+                    <img src="./image/8.png" class="img-fluid"alt="Checklist motive" width="250px">
+                </div>
+
+            
+            </div>
+            <br class="mt-5 mb-5 ">
+            <br class="mt-5 mb-5 mozFix">
+        </div>
+    </div>
+    <div class="container p-5 d-none" style="background-color: #F4FBFB;"> <!-- KLASA "d-none" OTKLANJA ELEMENT-->
+        <br class="mt-5 mb-5 mozFix">
+        <div class="row justify-content-center">
+            <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+                <img src="./image/break.png" class="img-fluid mb-2" width="150px" alt="Mop logo" >
+            </div>
+        </div>
+        <br class="mt-5 mb-5 mozFix">
+        <div class="row justify-content-center">
+            <div class="col-xl-5 d-flex flex-column justify-content-center align-items-center p-xl-0 p-2" style="position: relative;">
+                <img src="./image/bubble.png" class="img-fluid d-none d-xl-block customerBackground " alt="Customer Background" >
+                <div class="customerBackgroundmd d-block d-xl-none"></div>
+                <img src="" alt="" id="customerImage" width="50px" class="rounded">
+                <br class="mt-5 mb-5 mozFix">
+
+                <p id="customerReview" class="text-white text-center m-0"></p>
+                <br class="mt-5 mb-5 mozFix">
+
+                <p class="text-white text-center m-0 customerName"><b id="customerName"></b></p>
+                <p class="text-white text-center m-0 text- customerTitle"><i id="customerTitle"></i></p>
+            </div>
+            <div class="col-xl-6 d-flex flex-column justify-content-center align-items-center">
+                <h1 class="text-center mt-5 mb-5"><b>Customers Love Us For Our Work </b></h1>
+                <p>Cras at eleifend orci, ut volutpat enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce mattis neque purus, id maximus lacus vestibulum vel. Vivamus in gravida justo. Donec suscipit, odio in commodo cursus, tortor sapien varius risus, vitae blandit sapien dolor quis mauris.</p>
+                <div style="width: max-content;" class="align-self-start">
+                    <button class="btn bi-arrow-left-short d-none d-xl-inline-block" style="background-color: #5052AB; color: white; font-size: 2rem; border-radius: 20rem" id="btn-previous-customer"></button>
+                    <button class="btn bi-arrow-right-short d-none d-xl-inline" style="background-color: #5052AB; color: white; font-size: 2rem; border-radius: 20rem" id="btn-next-customer"></button>
+                </div>
+            </div>
+        </div>
+        
+
+        <br class="mt-5 mb-5 mozFix">
+    </div>
+
+    <div class="container mt-5 mb-5" id="pricing">
+        <div class="row justify-content-center">
+            <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+                <img src="./image/break.png" class="img-fluid mb-2" width="150px" alt="Mop logo" >
+                <h1><b>Unsere Preise</b></h1>
+                <p class="text-center" >Dank unserem transparenten Preismodell zahlst du stets den exakten Betrag.</p>
+            </div>
+        </div>
+        <br class="mt-5 mb-5 mozFix">
+        <br class="mt-5 mb-5 mozFix">
+
+        <div class="row justify-content-center gap-5">
+            <div class="col-md-3 col-sm-10 d-flex flex-column  align-items-center customCard" data-aos="fade-up" data-aos-duration="1000">
+                <h2><b>pro Sunde</b></h2>
+                <div class="imageContainer">
+                    <img src="./image/basic.png" width="180px">
+                </div>
+                <h3>ab <b style="color: #80CC28;">24,50 €</b></h3>
+                <hr width="180px">
+            </div>
+            <div class="col-md-3 col-sm-10 d-flex flex-column  align-items-center customCard" data-aos="fade-up" data-aos-duration="1000">
+                <h2><b>pro Quadratmeter</b></h2>
+                <div class="imageContainer">
+                    <img src="./image/standard.png" width="180px">
+                </div>
+                <h3>ab <b style="color: #80CC28;">1,50 €</b> pro m²</h3>
+
+                <hr width="180px">
+                <p class="text-center">Beispiel für die Unterhaltsreinigung</p>
+                <p class="text-center">100 m² Büro</p>
+                <p class="text-center">1 x pro Woche</p>
+                <p class="text-center">ab 150 € (monatliche Kosten)</p>
+            </div>
+            <div class="col-md-3 col-sm-10 d-flex flex-column  align-items-center customCard" data-aos="fade-up" data-aos-duration="1000">
+                <h2><b>individuelle Preise</b></h2>
+                <div class="imageContainer">
+                    <img src="./image/unlimited.png" width="180px">
+                </div>
+                <h3>ab <b style="color: #80CC28;">99 €</b></h3>
+                <hr width="180px">
+                <p class="text-center">Um auf Ihre individuellen Anliegen und speziellen Anforderungen einzugehen</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid footerBackground">
+      <div class="container p-5" style="background-color: #F4FBFB;" id="contactus">
+        <br class="mt-5 mb-5 mozFix">
+        <div class="row justify-content-center">
+            <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+                <img src="./image/break.png" class="img-fluid mb-2" width="150px" alt="Mop logo" >
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-7 d-flex flex-column justify-content-center" data-aos="fade-right" data-aos-duration="1000">
+                <h1><b>Nehmen Sie Kontakt zu uns auf!</b></h1>
+                <p>Gerne stehen wir Ihnen zur Verfügung, um all Ihre Fragen zu beantworten. Zögern Sie nicht, uns eine E-Mail zu schicken.</p>
+                <br class="mt-5 mb-5 ">
+                <br class="mt-5 mb-5 mozFix">
+
+                <form class="row" method="post" action="contact-form-process.php">
+                  <div class="row">
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Vorname" aria-label="First name" name="firstname">
+                    </div>
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Nachname" aria-label="Last name" name="lastname">
+                    </div>
+                  </div>
+
+                  <br class="mt-5 mb-5 ">
+                  <br class="mt-5 mb-5 mozFix">
+
+                  <div class="row">
+                    <div class="col">
+                      <input type="email" class="form-control" placeholder="Email" aria-label="Email" name="email">
+                    </div>
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Telefonnummer" aria-label="Phone number" name="phonenumber">
+                    </div>
+                  </div>
+
+                  <br class="mt-5 mb-5 ">
+                  <br class="mt-5 mb-5 mozFix">
+
+                  <div class="row">
+                    <div class="col">
+                      <select class="form-select" aria-label="Default select example" name="selectedoption">
+                        <option value="Unterhaltsreinigung" selected >Unterhaltsreinigung</option>
+                        <option value="Private Haushalte">Private Haushalte</option>
+                        <option value="Grundreinigung">Grundreinigung</option>
+                        <option value="Bauendreinigung">Bauendreinigung</option>
+                        <option value="Handwerkservice">Handwerkservice</option>
+                        <option value="Weitere Services">Weitere Services</option>
+                        <option value="Sonstiges">Sonstiges</option>
+
+                      </select>
+                    </div>
+                  </div>
+                  <br class="mt-5 mb-5 ">
+                  <br class="mt-5 mb-5 mozFix">
+                  <div class="row">
+                    <div class="col">
+                      <textarea class="form-control" name="comments" rows="3" placeholder="Ihre Nachricht"></textarea>
+                    </div>
+                  </div>
+
+                  <br class="mt-5 mb-5 ">
+                  <br class="mt-5 mb-5 mozFix">
+                  <br class="mt-5 mb-5 mozFix">
+                  <br class="mt-5 mb-5 mozFix">
+
+                  <div class="row">
+                    <div class="col">
+                      <button type="submit"  class="btn btn-secondary align-self-start border-light" style="background-color: #80CC28;">Senden</button>                    
+                    </div>
+                  </div>
+                  
+                </form>
+            </div>
+            <div class="col-md-5 d-flex flex-column justify-content-center align-items-center">
+                <img src="./image/12.png" class="img-fluid" alt="Customer Background" >
+            </div>
+        </div>
+
+        <br class="mt-5 mb-5 mozFix">
+    </div>
+
+    <br class="mt-5 mb-5 mozFix">
+    <br class="mt-5 mb-5 mozFix">
+    <br class="mt-5 mb-5 mozFix">
+
+    <div class="container-fluid">
+      <br class="mt-5 mb-5 mozFix">
+
+
+        <div class="container">
+
+          <div id="sponsor" class="carousel slide d-none" data-bs-ride="carousel"> <!-- KLASA "d-none" OTKLANJA ELEMENT-->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row justify-content-around">
+                  <div class="col-lg-2 col-md-5 col-sm-8">
+                    <img src="./image/examplelogo.png" class="d-block w-100" alt="sponsor image">
+                  </div>
+                  <div class="col-lg-2 col-md-5 col-sm-8">
+                    <img src="./image/examplelogo.png" class="d-block w-100" alt="sponsor image">
+                  </div>
+                  <div class="col-lg-2 col-md-5 col-sm-8">
+                    <img src="./image/examplelogo.png" class="d-block w-100" alt="sponsor image">
+                  </div>
+                  <div class="col-lg-2 col-md-5 col-sm-8">
+                    <img src="./image/examplelogo.png" class="d-block w-100" alt="sponsor image">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row justify-content-around">
+                  <div class="col-lg-2 col-md-5 col-sm-8">
+                    <img src="./image/examplelogo.png" class="d-block w-100" alt="sponsor image">
+                  </div>
+                  <div class="col-lg-2 col-md-5 col-sm-8">
+                    <img src="./image/examplelogo.png" class="d-block w-100" alt="sponsor image">
+                  </div>
+                  <div class="col-lg-2 col-md-5 col-sm-8">
+                    <img src="./image/examplelogo.png" class="d-block w-100" alt="sponsor image">
+                  </div>
+                  <div class="col-lg-2 col-md-5 col-sm-8">
+                    <img src="./image/examplelogo.png" class="d-block w-100" alt="sponsor image">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <br class="mt-5 mb-5 mozFix">
+        <br class="mt-5 mb-5 mozFix">
+
+
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-sm-12 col-md-3 d-flex flex-column justify-content-center align-items-center">
+                    <img src="./image/logo.png" alt="Logo" width="200px" class="mb-4 align-self-md-center">
+                    <div class="d-flex gap-3  align-self-md-center">
+                        <i class="bi bi-phone"></i>
+                        <p>0174 4794983</p>
+                    </div>
+                    <div class="d-flex gap-3  align-self-md-center">
+                        <i class="bi-mailbox2"></i>
+                        <p>info@nolimit-service.de</p>
+                    </div>
+                    <div class="d-flex gap-3  align-self-md-center">
+                        <i class="bi bi-pin"></i>
+                        <p>Menkenstr. 30, 58455 Witten</p>
+                    </div>
+                    <div class="d-flex gap-3 align-self-md-center">
+                      <a href="" class="bi-facebook nav-link" ></a> <!-- FEJSBUK LINK -->
+                      <a href="" class="bi-instagram nav-link"></a> <!-- INSTAGRAM LINK -->
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-3 d-flex flex-column justify-content-center align-items-center d-none"> <!-- KLASA "d-none" OTKLANJA ELEMENT-->
+                    <h4 class="mb-3">Our Links</h4>
+                    <p class="mb-1"><a href="#home" class="nav-link">Home</a></p>
+                    <p class="mb-1"><a href="#aboutus" class="nav-link">About Us</a></p>
+                    <p class="mb-1"><a href="#services" class="nav-link">Services</a></p>
+                    <p class="mb-1"><a href="#pricing" class="nav-link">Pricing</a></p>
+                    <p class="mb-1"><a href="#contactus" class="nav-link">Contact Us</a></p>
+                </div>
+                <div class="col-sm-12 col-md-3 d-flex flex-column justify-content-center align-items-center d-none"> <!-- KLASA "d-none" OTKLANJA ELEMENT-->
+                    <h4 class="mb-3  align-self-md-end">Our Services</h4>
+                    <p class="mb-1 align-self-md-end"><a href="#" class="nav-link">FAQ</a></p>
+                    <p class="mb-1 align-self-md-end"><a href="#" class="nav-link">Privacy</a></p>
+                    <p class="mb-1 align-self-md-end"><a href="#" class="nav-link">Support</a></p>
+                    <p class="mb-1 align-self-md-end"><a href="#" class="nav-link">Terms & Conditions</a></p>
+                    
+                </div>
+            </div>
+        </div>
+        <br class="mt-5 mb-5 mozFix">
+        <br class="mt-5 mb-5 mozFix">
+        <br class="mt-5 mb-5 mozFix">  
+      </div>
+
+    </div>
+        
+    <div id="cb-cookie-banner" class="alert alert-dark text-center mb-0 pt-4" role="alert" style="background-color: #d3f7a8; border-color: #d3f7a8;">
+      Diese Website verwendet Cookies, um sicherzustellen, dass Sie das beste Erlebnis auf unserer Website erhalten.  
+      <a href="https://www.cookiesandyou.com/" target="blank">Erfahren Sie mehr!</a>
+      <button type="button" class="btn btn-primary btn-sm ms-3" onclick="window.cb_hideCookieBanner()">
+        OK
+      </button>
+    </div>
+
+    <div class="container-fluid" style="background-color: #C5E9E9;">
+        <div class="container d-flex justify-content-between pt-3">
+            <p>© 2023 NoLimit Services</p>
+            <p class="mb-0"> <i class="bi-square-fill" style="color: #80CC28;"></i> <a href="./privacy.html" style="text-decoration: none; text-decoration: underline; color: black;"> Impressum </a> <i class="bi-square-fill" style="color: #80CC28; "></i> <a href="./termsandconditions.html  " style="text-decoration: none; text-decoration: underline; color: black;"> Datenschutzerklärung </a></p>
+        </div>
+    </div>
+
+    <button type="button" class="btn btn-floating btn-lg bi-arrow-90deg-up" id="btn-back-to-top" style="background-color: #80CC28; color: white;"> </button>
+
+    <script src="./jquery-3.7.0.min.js"></script>
+    <script src="./bootstrap.bundle.js"></script>
+    <script src="./aos.js"></script>
+    <script src="./script.js"></script>
+    
+  </body>
+</html>
